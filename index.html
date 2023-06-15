@@ -491,33 +491,40 @@ https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.m
             </svg>
         </button>
 
-<!-- название модального окна  -->
+<!-- название модального окна ) ПАРАГРАФ -->
 <p class="modal-text">
     Leave your contacts and we will call you back
 </p>
 
 <!-- Три поля ввода имя , тел, имейл -->
 
-<form name="Leave your contacts" class="modal-form" autocomplete="off">
-    
-    
-        <input  class="modal-form-input"
-                type="text"
-                name="Name"
-                placeholder="Name"
-                autofocus>
+<form 
+    name="Leave your contacts" 
+    class="modal-form" 
+    autocomplete="off">
 
-        <input  class="modal-form-input"
-                type="text"
-                name="Phone"
-                placeholder="Phone"
-                autofocus>
+    <div class="modal-div-input-general">
+        <label  class="modal-form-label"                
+                for="user-name"></label>
+<!-- Після label наступним йде div, який є 
+    контейнером для input та іконки -->
 
-        <input  class="modal-form-input"
-                type="text"
-                name="Email"
-                placeholder="Email"
-                autofocus>
+    <div class="modal-div-input-and-svg">
+        <input  type="text" 
+                id="user-name"
+                name="user-name"
+                class="modal-input">
+
+        <svg width="18" height="24" class="modal-svg-input">
+            <use href="./images/icons.svg#icon-user">
+                
+            </use>
+        </svg>
+
+    </div>
+
+    </div>
+  
    
 </form>
 
