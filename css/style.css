@@ -847,6 +847,12 @@ margin-bottom: 16px;}
     .modal-link{
         color: #4d5ae5;}
     
+    .modal-input-checkbox:checked + .modal-checkbox-span{
+        background-color:var(--pressed-state-color);
+        border: none; 
+        fill: var(--light-color);
+        
+    }
 
 
 
