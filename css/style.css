@@ -763,8 +763,7 @@ margin-bottom: 16px;}
         margin-bottom: 4px;        }
 
     .modal-div-input-general{
-        margin-bottom: 8px;
-        }
+        margin-bottom: 8px;        }
     
     .modal-div-input-and-svg{
         position: relative;   }
@@ -785,7 +784,7 @@ margin-bottom: 16px;}
         border-color: var(--primary-barand-color);}
     
     .modal-input:focus + .modal-svg-input{
-        fill: #4D5AE5;}
+        fill: var(--primary-barand-color);}
 
     .modal-svg-input{
         position: absolute;
@@ -795,9 +794,58 @@ margin-bottom: 16px;}
         transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
         }
     
-    .modal-svg-input:focus{
-        fill: var(--primary-barand-color);    }
+    /* .modal-svg-input:focus{
+        fill: var(--primary-barand-color);    } */
 
+    .modal-window-div-rextarea{
+         margin-bottom: 16px;   }
+    
+    .modal-textarea{
+        width: 100%;
+        height: 120px;
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+        color: rgba(46, 47, 66, 0.4);
+        border: 1px solid rgba(46, 47, 66, 0.4);
+        border-radius: 4px;
+        background-color: transparent;
+        padding: 8px 16px;
+        outline: transparent;
+        transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+            }
+
+    .modal-textarea:focus{border-color: #4D5AE5; }
+    .modal-checkbox{
+        margin-bottom: 24px;}
+
+    .modal-input-checkbox{    }
+
+    .modal-checkbox-label{
+            font-size: 12px;
+            line-height: 1.17; 
+            letter-spacing: 0.04em;
+            color: var(--subtle-text-color);}
+
+    .modal-checkbox-span{
+        width: 16px;
+        height: 16px;
+        border: 1px solid rgba(46, 47, 66, 0.4);
+        border-radius: 2px; 
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+                    border 250ms cubic-bezier(0.4, 0, 0.2, 1), 
+                    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        fill: transparent; }
+
+    .modal-svg-checkbox{
+
+    }
+
+    .modal-link{
+        color: #4d5ae5;}
     
 
 

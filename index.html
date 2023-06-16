@@ -503,9 +503,11 @@ https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.m
     class="modal-form" 
     autocomplete="off">
 
+<!-- First input NAME-->
     <div class="modal-div-input-general">
         <label  class="modal-form-label"                
                 for="user-name">Name</label>
+
 <!-- Після label наступним йде div, який є 
     контейнером для input та іконки -->
 
@@ -516,12 +518,94 @@ https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.m
                 class="modal-input">
 
         <svg width="18" height="24" class="modal-svg-input">
-            <use href="./images/icons.svg#icon-user">
-                
-            </use>
+            <use href="./images/icons.svg#icon-user"></use>
         </svg>
 
     </div>
+
+    <!-- second input PHONE -->
+
+    <div class="modal-div-input-general">
+        <label class="modal-form-label" for="user-name">Phone</label>
+        
+        <!-- Після label наступним йде div, який є 
+        контейнером для input та іконки -->
+    
+        <div class="modal-div-input-and-svg">
+            <input  type="text" 
+                    id="user-name" 
+                    name="user-name" 
+                    class="modal-input">
+    
+            <svg width="18" height="24" class="modal-svg-input">
+                <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+    
+        </div>
+
+        <!-- Third input EMAIL -->
+
+        <div class="modal-div-input-general">
+            <label  class="modal-form-label" 
+                    for="user-name">Email</label>
+        
+            <!-- Після label наступним йде div, який є 
+                контейнером для input та іконки -->
+        
+            <div class="modal-div-input-and-svg">
+                <input  type="text" 
+                        id="user-name" 
+                        name="user-name" 
+                        class="modal-input">
+        
+                <svg width="18" height="24" class="modal-svg-input">
+                    <use href="./images/icons.svg#icon-email"></use>
+                </svg>
+        
+            </div>
+
+<!-- Fourth element in modal window (textarea) -->
+
+            <div class="modal-window-div-rextarea">
+                <label  class="modal-form-label" 
+                        for="user-comment">Comment</label>
+
+                <textarea   name="user-comment" 
+                            id="user-comment" 
+                            cols="30" 
+                            rows="10"
+                            placeholder="Text input"
+                            class="modal-textarea"></textarea>
+            </div>
+
+    <!-- П'ятим дочірнім елементом форми є div, що є 
+        контейнером для чекбоксу з label -->
+
+        <div class="modal-checkbox">
+
+            <input  class="modal-input-checkbox visually-hidden"
+                    type="checkbox"
+                    id="user-privacy"        
+                    value="true"
+                    name="user-privacy">
+<!-- Для input додано атрибут value="true" 
+    для встановлення початкового значення елемента форми -->
+
+            <label  for="user-privacy"
+                    class="modal-checkbox-label">
+                    I accept the terms and conditions of the
+                    <span class="modal-checkbox-span">
+                        <svg    class="modal-svg-checkbox" 
+                                width="10" 
+                                height="8">
+                            <use href="./images/icons.svg#icon-check"></use>
+                        </svg></span>
+
+                    <a class="modal-link" href="">Privacy Policy</a>
+                    
+            </label>
+
+        </div>
 
     </div>
   
