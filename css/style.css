@@ -797,7 +797,7 @@ margin-bottom: 16px;}
     /* .modal-svg-input:focus{
         fill: var(--primary-barand-color);    } */
 
-    .modal-window-div-rextarea{
+    .modal-window-div-textarea{
          margin-bottom: 16px;   }
     
     .modal-textarea{
@@ -851,7 +851,7 @@ margin-bottom: 16px;}
         background-color:var(--pressed-state-color);
         border: none; 
         fill: var(--light-color);
-        
+
     }
 
 
