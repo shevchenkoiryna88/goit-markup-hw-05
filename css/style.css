@@ -541,9 +541,8 @@ margin-bottom: 16px;}
 
     .portfolio-img{
          position: relative;
-         overflow: hidden;
-
-    }
+         overflow: hidden;    }
+         
     .portfolio-text-under-img{
         position: absolute;
         top: 0; 
